@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: governance-policy-propagator
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/jephilli-tenant/devfile-sample-go-basic/governance-policy-propagator@sha256:5d32082d40fe002e8d06ff0599116dac776fb820fe1105b3cb8cf548a7ceef7e
         imagePullPolicy: Always
         name: container-image
         ports:
